@@ -1,10 +1,9 @@
-void setup() {
-    pinMode(2, OUTPUT);
-
-
+void setup()
+{
+  pinMode(2, OUTPUT);
 }
 
-void loop() {
+void loop()
+{
   pinMode(2, HIGH);
-
 }
