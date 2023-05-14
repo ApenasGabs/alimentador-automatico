@@ -5,10 +5,9 @@
 
 
 
-### Configuracoes 
-use a branch confi para fazer a configuracao inicial de hora e data do modulo RTC 
-use o monitor serial para verificar novamente a data/ hora
-descomente o rtc.adjust(DateTime(F(__DATE__), F(__TIME__))); 
- faca upload
- comente novamente o rtc.adjust(DateTime(F(__DATE__), F(__TIME__))); 
- use o monitor serial para verificar novamente a data/ hora
+## Configuracoes 
+### use a branch config para fazer a configuracao inicial de hora e data do modulo RTC 
+1. Descomente o trecho do codigo  `rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));`
+2. Faca upload
+3. Comente novamente o `rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));`
+4. Ultilize o monitor serial na velocidade 57600 para verificar a data / hora
